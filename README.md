@@ -1,8 +1,8 @@
-\# AWS IAM Security Lab
+# AWS IAM Security Lab
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,57 +14,57 @@ The project covers IAM Roles, Instance Profiles, AWS Security Token Service (STS
 
 
 
-\---
+---
 
 
 
-\## Objectives
+## Objectives
 
 
 
-\- Create an IAM Role for Amazon EC2
+- Create an IAM Role for Amazon EC2
 
-\- Understand Instance Profiles
+- Understand Instance Profiles
 
-\- Attach an IAM Role to an EC2 instance
+- Attach an IAM Role to an EC2 instance
 
-\- Verify temporary credentials using AWS STS
+- Verify temporary credentials using AWS STS
 
-\- Access Amazon S3 without configuring AWS access keys
+- Access Amazon S3 without configuring AWS access keys
 
-\- Demonstrate the Principle of Least Privilege
-
-
-
-\---
+- Demonstrate the Principle of Least Privilege
 
 
 
-\## Technologies Used
+---
 
 
 
-\- AWS IAM
-
-\- Amazon EC2
-
-\- AWS STS
-
-\- Amazon S3
-
-\- AWS CLI
-
-\- Amazon Linux 2023
-
-\- SSH
+## Technologies Used
 
 
 
-\---
+- AWS IAM
+
+- Amazon EC2
+
+- AWS STS
+
+- Amazon S3
+
+- AWS CLI
+
+- Amazon Linux 2023
+
+- SSH
 
 
 
-\## Architecture
+---
+
+
+
+## Architecture
 
 
 
@@ -76,57 +76,57 @@ architecture/IAM Architecture.png
 
 
 
-\---
+---
 
 
 
-\## Project Workflow
+## Project Workflow
 
 
 
-1\. Created an IAM Role for EC2
+1. Created an IAM Role for EC2
 
-2\. Attached AmazonS3ReadOnlyAccess policy
+2. Attached AmazonS3ReadOnlyAccess policy
 
-3\. Attached the role to the running EC2 instance
+3. Attached the role to the running EC2 instance
 
-4\. Verified temporary credentials using AWS STS
+4. Verified temporary credentials using AWS STS
 
-5\. Accessed Amazon S3 without Access Keys
+5. Accessed Amazon S3 without Access Keys
 
-6\. Demonstrated Least Privilege permissions
-
-
-
-\---
+6. Demonstrated Least Privilege permissions
 
 
 
-\## Learning Outcomes
+---
 
 
 
-\- IAM Roles
-
-\- Instance Profiles
-
-\- Temporary Credentials
-
-\- AWS STS
-
-\- EC2 Authentication
-
-\- Secure AWS Access
-
-\- Least Privilege
+## Learning Outcomes
 
 
 
-\---
+- IAM Roles
+
+- Instance Profiles
+
+- Temporary Credentials
+
+- AWS STS
+
+- EC2 Authentication
+
+- Secure AWS Access
+
+- Least Privilege
 
 
 
-\## Author
+---
+
+
+
+## Author
 
 
 
